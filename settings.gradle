@@ -1,3 +1,2 @@
-include ':app', ':c_parson', ':c_openssl', ':c_gmssl', ':gmsslandroid','gmssl-new'
+include ':app', ':c_parson','gmssl-new'
 
-include ':c_log'

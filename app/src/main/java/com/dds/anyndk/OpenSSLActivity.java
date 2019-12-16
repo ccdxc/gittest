@@ -48,4 +48,5 @@ public class OpenSSLActivity extends AppCompatActivity {
 
         text.setText(sb.toString());
     }
+    
 }
