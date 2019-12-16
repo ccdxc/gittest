@@ -28,19 +28,36 @@ public class MainActivity extends AppCompatActivity {
                 }
             });
         }
+        // fjdslgdlkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkgjdkg
+
+    }
+    private int msgCode;
+    private String msg;
 
 
+    public int getMsgCode() {
+        return msgCode;
+    }
+
+    public void setMsgCode(int msgCode) {
+        this.msgCode = msgCode;
+    }
+
+    public String getMsg() {
+        return msg;
+    }
+
+    public void setMsg(String msg) {
+        this.msg = msg;
+    }
+
+    @Override
+    public String toString() {
+        return "Bean_ActivityShow{" +
+                "msgCode=" + msgCode +
+                ", msg='" + msg + '\'' +
+                '}';
     }
 
 
-    // openssl
-    public void openssl(View view) {
-        OpenSSLActivity.openActivity(this);
-
-    }
-
-    // parson
-    public void parson(View view) {
-        ParsonActivity.openActivity(this);
-    }
 }

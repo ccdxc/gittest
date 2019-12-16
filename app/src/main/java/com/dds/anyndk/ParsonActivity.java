@@ -8,8 +8,7 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.dds.parson.Parson;
-import com.dds.parson.User;
+
 
 public class ParsonActivity extends AppCompatActivity {
 
@@ -31,24 +30,10 @@ public class ParsonActivity extends AppCompatActivity {
         text1 = findViewById(R.id.text1);
         text.setText(pro);
     }
-
-    public void parseJson(View view) {
-        String test = Parson.test();
-        Log.d("dds_test", test);
-        text1.setText(test);
+    @Override protected void onResume() {
+        super.onResume();
     }
 
-    public void decodeJson(View view) {
-        String result = Parson.test();
-        Log.d("dds_test", result);
-        User user = Parson.parseJson(result);
-        if (user != null) {
-            try {
-                Log.d("dds_test", "habit:" + user.getHabbits().get(0));
-            } catch (Exception e) {
-                e.printStackTrace();
 
-            }
-        }
-    }
+
 }
