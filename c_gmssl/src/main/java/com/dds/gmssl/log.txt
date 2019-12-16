@@ -1,0 +1,4 @@
+Build command failed.
+Error while executing process D:\android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe with arguments {--build E:\wangbin\demo\sm3\AnyNdk\c_gmssl\.externalNativeBuild\cmake\debug\armeabi-v7a --target native-gmssl}
+
+ninja: error: 'gmssl-NOTFOUND', needed by 'E:/wangbin/demo/sm3/AnyNdk/c_gmssl/build/intermediates/cmake/debug/obj/armeabi-v7a/libnative-gmssl.so', missing and no known rule to make it
